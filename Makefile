@@ -1,7 +1,7 @@
 
 
 docker:
-	docker build -t bumped:nodebb nodebb
+	docker build -t bumped:nodebb ./
 
 redis:
 	docker run --name redis -d -p 127.0.0.1:6379:6379 redis
